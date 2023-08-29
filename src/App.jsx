@@ -1,12 +1,16 @@
-import './App.css'
-import MiApi from './components/MiApi'
+import "./App.css";
+import MiApi from "./components/MiApi";
+import MiFooter from "./components/MiFooter";
+import MiNavbar from "./components/MiNavbar";
 
 function App() {
   return (
     <>
-      <MiApi/>
+      <MiNavbar />
+      <MiApi />
+      <MiFooter/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

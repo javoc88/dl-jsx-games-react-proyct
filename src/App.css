@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Ubuntu&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.searchContainer {
+  padding: 1rem;
+}
+
+.statsSection {
+  margin-top: 10px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.container-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  opacity: 90%;
+  padding-top: 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.card-stats {
+  margin: 0 10px;
+}
+
+.card .statsBase {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.card .statsStr {
+  margin: 0;
+  color: orangered;
+}
+
+.card .statsAgi {
+  margin: 0;
+  color: lawngreen;
+}
+
+.card .statsInt {
+  margin: 0;
+  color: cyan;
+}
+
+button {
+  margin: 0 10px;
+}

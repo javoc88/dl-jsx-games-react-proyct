@@ -3,11 +3,10 @@ import Container from "react-bootstrap/Container";
 function Buscador({ search, setSearch }) {
   return (
     <>
-      <Container>
-        <h2>Search your Hero</h2>
+      <Container className="searchContainer">
         <input
           type="text"
-          placeholder="Search by name"
+          placeholder="Search hero by name"
           className="form-control"
           value={search}
           onChange={(e) => {
